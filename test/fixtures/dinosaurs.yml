@@ -17,3 +17,9 @@ blue:
   name: "blue"
   species: "Velociraptor"
   dino_type: 1
+
+sarah:
+  cage: :h_cage
+  name: "sarah"
+  species: "Triceratops"
+  dino_type: 0

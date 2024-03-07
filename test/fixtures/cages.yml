@@ -3,9 +3,9 @@
 h_cage:
   name: "H Cage"
   power: true
-  capacity: 1
+  capacity: 2
 
 c_cage:
   name: "C Cage"
   power: true
-  capacity: 1
+  capacity: 2
