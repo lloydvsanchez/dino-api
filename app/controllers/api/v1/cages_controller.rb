@@ -5,7 +5,7 @@ class Api::V1::CagesController < ApplicationController
     resource = Cage.select(%i[id name power capacity]).includes(:dinosaurs)
     resource = resource.where(cage_params) unless cage_params.empty?
     resource = resource.joins(:dinosaurs).where(dinosaur_params) unless dinosaur_params.empty?
-    render json: preformat_to_json(resource)
+    json_response(preformat_to_json(resource))
   end
 
   def create
