@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+little_foot:
+  cage: :h_cage
+  name: "little foot"
+  species: "Brachiosaurus"
+  dino_type: 0
+
+big_mouth:
+  cage: :c_cage
+  name: "big mouth"
+  species: "Tyrannosaurus"
+  dino_type: 1
+
+blue:
+  cage: :c_cage
+  name: "blue"
+  species: "Velociraptor"
+  dino_type: 1

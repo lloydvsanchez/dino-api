@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+h_cage:
+  name: "H Cage"
+  power: true
+  capacity: 1
+
+c_cage:
+  name: "C Cage"
+  power: true
+  capacity: 1
